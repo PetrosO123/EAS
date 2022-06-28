@@ -1,0 +1,35 @@
+.cell {
+  border: 1px solid gray;
+  width: 20px;
+  height: 20px;
+  display: block;
+  white-space: nowrap;
+  }
+#container{
+  display: flex;
+  justify-content: center;
+  height: 1603px;
+  width: 1603px;
+  overflow: hidden;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+  
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  text-align: center;
+}
